@@ -10,9 +10,6 @@ root = tk.Tk()
 root.title("帐务管理系统")
 root.geometry("650x300")
 
-
-
-
 def show_data():
     text.delete('1.0', 'end')  # 从第一行开始，全部删除
     key = cbox.get()
